@@ -2,9 +2,9 @@
 
  <div class="">
    <h1 class="text-center font-bold text-3xl py-8 ">Vue 3 Tabs</h1>
-   <div class="max-w-6xl mx-auto h-auto bg-white shadow-sm ring-1 ring-gray-300 rounded py-2">
-     <div class="max-w-5xl mx-auto h-auto bg-blue-200 py-4 px-2 flex gap-x-2 rounded"  >
-       <div v-for="(item, index) in languages" :key="item.name" @click="getTab(index, item)" :class="tab === index ? 'bg-blue-700' : ''" class="bg-blue-400 border border-blue-500 hover:bg-blue-700 hover:border-blue-700 transition-all px-4 py-2 w-24 cursor-pointer flex items-center justify-center text-white rounded" >
+   <div class="max-w-6xl mx-auto h-auto bg-blue-50 shadow-sm ring-1 ring-gray-300 rounded py-2">
+     <div class="max-w-5xl mx-auto h-auto bg-blue-200 py-4 px-2 flex gap-x-2 rounded overflow-x-auto"  >
+       <div v-for="(item, index) in languages" :key="item.name" @click="getTab(index, item)" :class="tab === index ? 'bg-blue-800 text-gray-100 border-blue-800' : ''" class="hover:text-gray-100  hover:bg-blue-800 hover:border-blue-700 transition-all px-4 py-2 whitespace-nowrap w-32 cursor-pointer flex items-center justify-center text-blue-800 rounded" >
          <tab-button :name="item.name"  ></tab-button>
 
        </div>
