@@ -1,0 +1,9 @@
+{
+"languages" : [
+  {    "name": "C",    "history": "C is a general-purpose programming language that was developed in the early 1970s by Dennis Ritchie at Bell Labs. It was designed to be a high-level language that is easy to read and write, and it has been widely used for a variety of purposes, including operating systems, databases, and software applications."  },
+  {    "name": "Java",    "history": "Java is a high-level programming language that was developed by Sun Microsystems in the mid-1990s. It was designed to be simple, object-oriented, and easy to learn, and it has become one of the most popular programming languages in the world, particularly for developing web and mobile applications."  },
+  {    "name": "Python",    "history": "Python is a high-level, interpreted programming language that was developed in the late 1980s by Guido van Rossum. It is known for its simplicity, readability, and flexibility, and it is often used for scientific computing, data analysis, and machine learning."  },
+  {    "name": "JavaScript",    "history": "JavaScript is a high-level, interpreted programming language that was developed in the mid-1990s by Netscape. It is primarily used for creating interactive web pages, and it is widely used in front-end web development and in the creation of web applications."  },
+  {    "name": "C++",    "history": "C++ is a high-level programming language that was developed in the early 1980s by Bjarne Stroustrup as an extension of the C programming language. It is a powerful, efficient language that is widely used for developing operating systems, software applications, and other systems that require high performance."  }]
+
+}
